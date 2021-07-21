@@ -9,8 +9,8 @@ puts "----------"
 class Store < ActiveRecord::Base
 end
 
-store1 = Store.find_by(id: 1)
-store2 = Store.find_by(id: 2)
+@store1 = Store.find_by(id: 1)
+@store2 = Store.find_by(id: 2)
 
-store1.name = 'something else'
-store1.save
+@store1.name = 'Toronto'
+@store1.save
