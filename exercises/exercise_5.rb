@@ -8,8 +8,6 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
-class Store < ActiveRecord::Base
-end
 
 puts Store.sum(:annual_revenue)
 puts Store.average(:annual_revenue)
